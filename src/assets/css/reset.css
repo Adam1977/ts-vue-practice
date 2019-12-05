@@ -1,0 +1,64 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0
+}
+html {
+  color: #000;
+  background: #fff;
+  overflow-y: scroll
+}
+
+body,
+button,
+input,
+select,
+textarea,
+pre {
+  font-size: 12px;
+  /*font-family: Arial, Helvetica, STHeiti, "宋体"*/
+}
+
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
